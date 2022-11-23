@@ -1,0 +1,293 @@
+body{
+				background-color:black;
+			  
+}
+
+.hero{
+				background-image: url("feranmi1.png");
+			  height: 80vh;
+				width: 110%;
+				border: 10px solid black;
+				background-size:cover;
+				background-position:center;
+				
+				
+}
+nav{
+				display: flex;
+				align-items:center ;
+				font-size: 10px;
+				justify-content: space-between;
+        padding-right: 1%;
+        padding-top: 20px;
+        
+}
+#logo{
+				color: white;
+				font-size: 35;
+				letter-spacing: 1px;
+				cursor: pointer;
+}
+span{
+				color: red;
+}
+nav ul li{
+				list-style-type: none;
+				display: inline;
+				padding:10px 25px ;
+}
+nav ul li a{
+				color: white;
+				text-decoration: none;
+				font-weight: bold;
+				text-transform: capitalize;
+}
+nav ul li a:hover{
+				color: red;
+				transition: .4s;
+}
+#btn{
+				background-color: red;
+				color: white;
+				text-decoration: none;
+				font-weight: bold;
+				border: 10px solid transparent;
+				border-radius:20px;
+				transition: transform .4s;
+}
+#btn:hover{
+				transform:scale(1.2);
+}
+.content{
+				position: absolute;
+				top: 50%;
+				left: 8%;
+				transform: translateY(-50%);
+}
+h4{
+				color: white;
+				margin:20px 0 20px;
+				font-size: 30px;
+}
+h5{
+				color: white;
+				font-size: 15px;
+				margin-bottom: 20px;	
+}
+h6{
+				color: #fcfc;
+				letter-spacing:2px;
+				font-size: 10px;	
+}
+.newsletter form{
+				width:300px;
+				max-width: 100%;
+				position:relative;
+}
+.newsletter form input:first-child{
+				display: inline-block;
+				width: 55%;
+				padding: 13px 120px 13px 14px ;
+				border: 2px solid red;
+				outline: none;
+				border-radius: 30px;
+}		
+.newsletter form input:last-child{
+				position: absolute;
+				display: inline-block;
+				outline: none;
+				border: none;
+				padding: 10px 25px;
+				border-radius: 30px;
+				background-color:red;
+				color: white;
+				box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+				top: 6px;
+				right: 6px;
+}
+#im{
+			height: 3.1in;
+			width: 2.4in;
+			padding-right:0.6in;
+			border-bottom-left-radius: 3px;
+}
+
+.about{
+				width: 200%;
+				padding: 100px 0px;
+				background-color:#191919 ;
+}
+.about img{
+				height: auto;
+				width: 430px;
+}
+.about-text{
+				width:550px ;
+			
+				
+}
+.main{
+				width: 1130px;
+				max-width: 95%;
+				margin: 0 auto;
+				display:flex;
+				align-items:center;
+				justify-content:space-around;
+}
+.about-text h3{
+				color: white;
+				text-transform: capitalize;
+				margin-bottom: 20px;
+				font-size: 40px;
+}
+.about-text h5{
+				color:white;
+				letter-spacing:2px ;
+				margin-bottom: 25px;
+				text-transform: capitalize;
+}
+.about-text p{
+				color: #fcfc;
+				letter-spacing: 1px;
+	      font-size: 10px;
+	      line-height: 28px;
+	      margin-bottom: 35px;
+	      		
+}
+button{
+				background-color: red;
+				color: white;
+				text-decoration: none;
+				border: 2px solid transparent;
+				padding: 13px 30px;
+				border-radius: 55px;
+				font-weight: bold;
+				transition: .4s;
+}
+button:hover{
+				background-color: transparent;
+				border: 2px solid red ;
+				cursor: pointer;
+}
+.imagee {
+				width: 35px;
+				height: 35px;
+				margin: 25px 0px;
+				background-color: red;
+			  background: red;
+			  border-radius: 10px;
+				
+}
+.service{
+				background-color: #101010;
+				width: 200%;
+				padding: 100px 0px;
+}
+.title h2{
+				color: white;
+				width: 427px;
+				font-size: 40px;
+				margine:30px auto;
+				text-align: center;
+}
+
+ 
+.card{
+				height:375px ;
+				width: 350px;
+				background-color: #191919;
+				border-radius: 20px;
+				margin: 45px;
+				text-align: center;
+				position: relative;
+				overflow: hidden;				
+}
+h3{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 17px;
+}
+.pra p{
+				color: #fcfc;
+				font-size: 16px;
+				line-height:27px;
+				margin-bottom: 25px;
+}
+.card .button{
+				background-color: red;
+				color: white;
+				text-decoration: none;
+				border: 2px solid transparent;
+				padding: 9px 22px;
+				border-radius: 55px;
+				font-weight: bold;
+				transition: .4s;
+}
+.card .button:hover{
+				background-color: transparent;
+				border: 2px solid red ;
+				cursor: pointer;
+}
+.contact-me{
+				width: 40%;
+				height: 3in;
+				display: flex;
+				background-color: #191919;
+				align-items: center;
+				flex-direction: column;
+}
+.contact-me p{
+				color: white;
+				font-size:22px;
+				font-weight: bold;
+				margin-bottom: 25px;	
+}
+.contact-me .button2{
+				background-color: red;
+				color: white;
+				text-decoration: none;
+				border: 2px solid transparent;
+				padding: 13px 30px;
+				border-radius: 55px;
+				font-weight: bold;
+				transition: .4s;
+}
+.contact-me .button2:hover{
+				background-color: transparent;
+				border: 2px solid red ;
+				cursor: pointer;
+}
+#face{
+				width: 30px;
+				height: 30px;
+				border-radius: 45px;
+				margin: 22px 10px;
+					
+}
+#face:hover{
+				transform:scale(1.3);
+				transition: .3s;
+}
+footer{
+			width: 400px;
+			height: 200px;
+			background-color: #101010;	
+			text-align: center;		
+			color: white;
+			line-height: 25px ;
+			font-size: 15px;
+}
+.end{
+			
+				color: red;
+				bottom:35px;	
+}
+#white {
+				color:white;
+}
+#blue{
+				color: blue;
+}
+#green{
+				color: green;
+}
